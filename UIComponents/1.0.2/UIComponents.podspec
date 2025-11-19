@@ -10,15 +10,15 @@ Pod::Spec.new do |s|
   s.name             = 'UIComponents'
   s.version          = '1.0.2'
   s.summary          = 'UIKit wrapper / UIKit extensions'
-  s.homepage         = 'https://github.com/FabitMobile/UIComponents.git'
+  s.homepage         = 'https://github.com/Software-Product/UIComponents.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fabit_mobile' => 'aleksandr.zherebtsov@gorparkovki.ru' }
-  s.source           = { :git => 'https://github.com/FabitMobile/UIComponents.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Software-Product/UIComponents.git', :tag => s.version.to_s }
   s.swift_version     = '5.2'
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'UIComponents/Source/**/*'
-  
+
   s.frameworks = 'UIKit'
 
 end

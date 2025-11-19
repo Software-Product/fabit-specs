@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
   s.name             = 'ImageGallery'
   s.version          = '1.2.0'
   s.summary          = 'image gallery ui component'
-  s.homepage         = 'https://github.com/FabitMobile/ImageGallery.git'
+  s.homepage         = 'https://github.com/Software-Product/ImageGallery.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fabit_mobile' => 'aleksandr.zherebtsov@gorparkovki.ru' }
-  s.source           = { :git => 'https://github.com/FabitMobile/ImageGallery.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Software-Product/ImageGallery.git', :tag => s.version.to_s }
   s.swift_version     = '5.2'
   s.ios.deployment_target = '9.0'
 

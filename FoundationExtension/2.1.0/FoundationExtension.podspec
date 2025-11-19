@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
   s.name             = 'FoundationExtension'
   s.version          = '2.1.0'
   s.summary          = 'foundation framework extensions'
-  s.homepage         = 'https://github.com/FabitMobile/FoundationExtension.git'
+  s.homepage         = 'https://github.com/Software-Product/FoundationExtension.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fabit_mobile' => 'aleksandr.zherebtsov@gorparkovki.ru' }
-  s.source           = { :git => 'https://github.com/FabitMobile/FoundationExtension.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Software-Product/FoundationExtension.git', :tag => s.version.to_s }
   s.swift_version     = '5.2'
   s.ios.deployment_target = '10.0'
 
